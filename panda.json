@@ -1,0 +1,33 @@
+{
+    "ovpns": [
+       {"id": 0, "config": "client\nproto udp\ndev tun\nremote 58.64.173.208 1194\nremote-cert-tls server\npersist-tun\npersist-key\ncomp-lzo\nverb 3\nmute-replay-warnings\nkey-direction 1\n<ca>\n-----BEGIN CERTIFICATE-----\nMIIDQTCCAimgAwIBAgIJANCFrO9X+sBlMA0GCSqGSIb3DQEBCwUAMBoxGDAWBgNV\nBAMMD3d3dy5hZDgwMzUuY29tCTAeFw0yMDA0MjQwMzM0MTdaFw0zMDA0MjIwMzM0\nMTdaMBoxGDAWBgNVBAMMD3d3dy5hZDgwMzUuY29tCTCCASIwDQYJKoZIhvcNAQEB\nBQADggEPADCCAQoCggEBAMQEaD9AZSfKzVKimykIA37WTfL83XzE//ZaNDEniiJ9\nfMkVqWWoNH8ETjEankktbqR8MNF3+yurQBRywaYn0lS+3uoVRU+KbREO2GGymJBA\nqSkEvEH+jHqIn43BMQThLbZ9UIVXxfOPt8+vuqgWTRu6+57EDUaGYUgO8srS81Zt\nwFpL0xIqYg/46366y0/HhPInI3OJBNnPznA+DF1xVoFOZiEUEmZz3+1nY+fTDVoP\nssDmSXoGTskNS1s0H+HPxu1PoBoW775okon/jb7YCCOnOoL6pXXhpL6HWrH5qa3q\nMXTXtj7t00Q+K4Q1ypUzgOXdxlWrRshK+691k2P6Wi8CAwEAAaOBiTCBhjAdBgNV\nHQ4EFgQUAYqka99jxEXEf2+udMRY/CHtZpswSgYDVR0jBEMwQYAUAYqka99jxEXE\nf2+udMRY/CHtZpuhHqQcMBoxGDAWBgNVBAMMD3d3dy5hZDgwMzUuY29tCYIJANCF\nrO9X+sBlMAwGA1UdEwQFMAMBAf8wCwYDVR0PBAQDAgEGMA0GCSqGSIb3DQEBCwUA\nA4IBAQCY6VgzJ6rnNmQQ16C/38PnSb7wNWPfsVZ3WoUFn3c4dkEJsz05zrPJBPFS\nE+4k8j0GPpgSpAgKTuEVp2tSlRheh2BMtsIscVB/Kau6ro3957KDFxvvpYFmUnQy\n87QGlwDA2/Dg3bmSP6C001kJ2X95UjPnk6F/wyvfrNSN182cUl7wqyPfKNtLP700\na1qc2RZ3Iy/OXNJWHaifo1wIThJ2UNGobYGRJlSOnXOqtZYGxnTpIQULGtkUNyyy\nXFGTHlhX/e2DrkPFV8HeKV9LPsSvlabKidpJJgiyz1issBLROqc8YAadUa20wkQ2\nR2xlzW3OGm5a532/VhorjmYG+38W\n-----END CERTIFICATE-----\n</ca>\n<cert>\n-----BEGIN CERTIFICATE-----\nMIIDTjCCAjagAwIBAgIRAPWZxFNYH1qGnnR3vFzix9owDQYJKoZIhvcNAQELBQAw\nGjEYMBYGA1UEAwwPd3d3LmFkODAzNS5jb20JMB4XDTIwMDQyNDAzNTk0NVoXDTIy\nMDcyODAzNTk0NVowDTELMAkGA1UEAwwCcTIwggEiMA0GCSqGSIb3DQEBAQUAA4IB\nDwAwggEKAoIBAQDUT/noi0W9s9GZ205sbH5LMNs2L25sxa+m6CkM7C2uWsTeXxwe\npOpR5vaHyalVj9VqhGRAFHox37PD7ATaJh0jDKhECKi8tTDxk7VnIueDgvdJIAh2\nCVmcYpLlrIy/zpDZ21bkEnwzFg55/mqcsBPDZoCE0beQFOKTWC/8TvMEQ6UjmMBQ\nPNRbb78gsOlTaFRDyWFY2MzmYXbUB1bE2aRhLzmPTnSU0I6lctjBIt5xg7uXIDXi\nWx+/pho6xXd8YZ1QJAqWRCoqKMYEcan+GDfzZ6AOa5D0rq5zC/zSXqY6GlH4nJZv\nfXrgGBGCfQVjeBDTKe3HYuaaUFPF6N/lkW11AgMBAAGjgZswgZgwCQYDVR0TBAIw\nADAdBgNVHQ4EFgQUDT2sE/mP81verEB0LwFm2J/AYFMwSgYDVR0jBEMwQYAUAYqk\na99jxEXEf2+udMRY/CHtZpuhHqQcMBoxGDAWBgNVBAMMD3d3dy5hZDgwMzUuY29t\nCYIJANCFrO9X+sBlMBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQEAwIHgDAN\nBgkqhkiG9w0BAQsFAAOCAQEAS6F3rWLukEXtofKJ9mHW4jmrv9sQ9szwraM4K9vR\nd2xcroslbWogQN3dxxLc8aX1SQAn08J20g1c9o5pJbdXWvwnJ0j7NSl2azpwhXRj\nXS9dkPDt9PfOwSaeT3uoexYk7BpDPxYHTU6BRmxftrHqJD0ZYlVJBR8M+5dhg6kt\nEZtECo8Je+yLr0bWsGUjWkllI0RfGecqbgIAYJV1JnBm7uidSicTLro9xwd5IcVk\nXvYB+4+xmdcX/zf4J68jhu3eVkHuJEvof+pkRZnT/h85ssagDmQJ3tjz45DelLP0\nttOjEDF0Zd2VkpWTEYk4DmA8AYkbx2rlxflLE+xi8hfFpg==\n-----END CERTIFICATE-----\n</cert>\n<key>\n-----BEGIN PRIVATE KEY-----\nMIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQDUT/noi0W9s9GZ\n205sbH5LMNs2L25sxa+m6CkM7C2uWsTeXxwepOpR5vaHyalVj9VqhGRAFHox37PD\n7ATaJh0jDKhECKi8tTDxk7VnIueDgvdJIAh2CVmcYpLlrIy/zpDZ21bkEnwzFg55\n/mqcsBPDZoCE0beQFOKTWC/8TvMEQ6UjmMBQPNRbb78gsOlTaFRDyWFY2MzmYXbU\nB1bE2aRhLzmPTnSU0I6lctjBIt5xg7uXIDXiWx+/pho6xXd8YZ1QJAqWRCoqKMYE\ncan+GDfzZ6AOa5D0rq5zC/zSXqY6GlH4nJZvfXrgGBGCfQVjeBDTKe3HYuaaUFPF\n6N/lkW11AgMBAAECggEBAIYnfu8cydWjwSap97T1HRxf47QqZmkexO3/Nqkut3K7\ncjhc+sS2SkW0XkTQ/UnOV/k1bK89ATVweAOtqCc7/B9AiTZsDksnZqTPQ8nGuWlV\nIPI45n/HSrNRaibsUAeG++pc+Vul/oq9PiqBw1X8wJAwvbavWYEWYVDfYXrZXB9t\nhFEPx3sCzJzI6omlP0A87IsoI3r8LXZLM/zyclrNvJNyGGJpSowE5tbGNmQ6DuZO\nidduVdRMqMwcNDRefEm9s6Y4CwQ9NJE8PyuBh2DsduT9AhdOwZK9W1T6wlz+SZCX\n2oE6vF/Wjmn3LEMRGTBxXpY27KS4oEpKrKAVK47JbeUCgYEA6zLNht8UZ12tq6Bu\nFAOh+DiBImuvpZcAbWrp7xfdcDlWSO8RzPgCV44M4DO/D7Nxo1K7LroQ5rVdMe6F\n8FK33B9zrcs9K3tRROiA3MXEaq2GIPlXiitI7e+7Yw+4AMjQ9citHj1UiH9HLLGQ\nni9obYHgn+/e8FaZsJBBfryKV4MCgYEA5xcA930AMjD3ScsgJztJbiNZtkYm23eb\nYU3sjbFsWQrIMbMy7LTAZkL0tfBz2ugAAWs/OuJFNWtCwSNQNX3pGTcYZZHWPs4x\nCOWVsv/peUa44XDslJD2ieGR+PHx5T2lc6WszlZuBas0qzYc/2rw2gx6cF7BhYZt\n1vEF9YoNnacCgYEAvZ0Yauo/xdGVKK9O7126X6YWHYzZb1McahnufO4tfMMM2AG8\nxRUQtktz//BX0S2mqLgS5enlpEmE17NnUccuKQ1GMk+OghaJ/1a+RL4/yo0YfE7o\njyC0S/agiI1sl11OcUgWoTFqjByoYdTJNW4c72PslqRIhFQc1WaHFsijc0cCgYEA\ngzPbV6h/6P9GF36dVcjiawblE4kG3MouzPMqIFSguHlXqmgcvKnvJuBTAc1wadQY\n1LVoY+098BNjBjcffg9rveY7EsfXRTdaPbvj34pOq42MwGqV18/qOeR5NUdg2I/E\nlUF2OHx34P4QXDjQA/BaqOI2zf/ujfoB+OxFPuBP1LcCgYEAvJXeay0PGcwwW3Za\nfAMxHiYEawmhf0W5gkDPgAKa8Rg2E3KjvYCjd6mnL183z/j5iSOEdN4L0fp0zLkN\nPjYEZO4QCnNqHRAW4Me8naI7CKqaiyIRFmou2RsHfg2mEYi5w4WQSTh5UP0LOTRB\n7BPOp1r/bQ48cdkDE2d49D9+o4w=\n-----END PRIVATE KEY-----\n</key>\n<tls-auth>\n-----BEGIN OpenVPN Static key V1-----\ne5bc750b6b97ec9404db9d1ba45773f4\n792e55d8d577f1067825cfdb8221a41d\nb327f48fd5ffaffb8cf8e16216d3e451\n101d25b0a6d4145f63940bed15a1265e\n7eedcde7992ae06e2ebd0f4f35ce9cb4\n8deea7f5348fe791eb1a3e3d18372d0d\n2f1370cbee9a2a4a1635a4ff0e8c0d59\n397a6c94a6b87bbc5931bda1ca23816a\na696a95be03de869e7c2eed28f4d6827\n54fc93abc867ca43fa37fb63eb92d3f6\nbfa8fe079dc2dfdc27b9ec9122098d11\nbb9a552de35c70519d1b87a2046abef0\n6a37ef31e5d1ee3045cd7f8188eefa0c\na371948d485926185dda071ad312d68c\ndaee598d424eb3379c743b31e16a05a9\n420b2f8bed140d289fe78153ce49d264\n-----END OpenVPN Static key V1-----\n</tls-auth>"
+        }
+    ], 
+    "servers": {
+        "ads": "false", 
+        "update": {
+            "version": "2.8.2000", 
+            "title": "Panda Vpn Update", 
+            "description": "Enjoy it", 
+            "size": "32M"
+        }, 
+        "blocked": [
+            {
+                "id": 0, 
+                "app": "com.android.game"
+            }
+        ], 
+        "free": [
+            {
+                "id": 0, 
+                "ovpnid": 0, 
+                "city": "HongKong", 
+                "country": "China", 
+                "flag": "vietnam", 
+                "ip": "58.64.173.208", 
+                "active": "true", 
+                "signal": "a"
+            }
+        ]
+    }
+}
